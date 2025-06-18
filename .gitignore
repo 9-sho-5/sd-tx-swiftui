@@ -1,0 +1,54 @@
+# Xcode
+.DS_Store
+build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+
+# SwiftPM
+/.swiftpm/
+Package.resolved
+
+# CocoaPods (if used)
+Pods/
+Podfile.lock
+
+# Carthage (if used)
+/Carthage/
+Carthage/Build/
+
+# Fastlane (if used)
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Archives and logs
+*.xcarchive
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Xcode project user data
+*.xcuserdatad/
+*.moved-aside
+*.xcscmblueprint
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# SwiftLint, if generating cache
+.swiftlint.tmp
+.swiftlint.yml
+.swiftlint.cache
+
+# Firebase / GoogleService-Info
+GoogleService-Info.plist
+
+# SPM artifacts
+Artifacts/
+
+# Sign-in credentials or API keys (set your actual path/file as needed)
+/Secrets.plist
