@@ -5,6 +5,8 @@ DerivedData/
 xcuserdata/
 *.xcuserstate
 *.xcworkspace/xcuserdata/
+*.zip
+ほしょ_*.mp4
 
 # SwiftPM
 /.swiftpm/
