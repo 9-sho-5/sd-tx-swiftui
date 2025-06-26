@@ -6,7 +6,7 @@ xcuserdata/
 *.xcuserstate
 *.xcworkspace/xcuserdata/
 *.zip
-ほしょ_*.mp4
+*_*.mp4
 
 # SwiftPM
 /.swiftpm/
