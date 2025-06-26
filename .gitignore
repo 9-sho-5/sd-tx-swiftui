@@ -1,56 +1,69 @@
-# Xcode
+# macOS
 .DS_Store
-build/
-DerivedData/
-xcuserdata/
-*.xcuserstate
-*.xcworkspace/xcuserdata/
-*.zip
-*_*.mp4
+
+# Build
+**/build/
+**/DerivedData/
+
+# Xcode user data and workspace
+**/*.xcuserdatad/
+**/*.xcuserstate
+**/*.xcscmblueprint
+**/*.moved-aside
+**/*.xcworkspace/
+**/project.xcworkspace/
+
+# Xcode project files (user-specific)
+**/xcuserdata/
 
 # SwiftPM
-/.swiftpm/
-Package.resolved
+**/.swiftpm/
+**/Package.resolved
+**/Artifacts/
 
 # CocoaPods (if used)
-Pods/
-Podfile.lock
+**/Pods/
+**/Podfile.lock
 
 # Carthage (if used)
-/Carthage/
-Carthage/Build/
+**/Carthage/
+**/Carthage/Build/
 
-# Fastlane (if used)
-fastlane/report.xml
-fastlane/Preview.html
-fastlane/screenshots/**/*.png
-fastlane/test_output
+# Fastlane
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots/**/*.png
+**/fastlane/test_output/
 
-# Archives and logs
-*.xcarchive
-*.ipa
-*.dSYM.zip
-*.dSYM
-
-# Xcode project user data
-*.xcuserdatad/
-*.moved-aside
-*.xcscmblueprint
+# SwiftLint
+**/.swiftlint.tmp
+**/.swiftlint.cache
 
 # Playgrounds
-timeline.xctimeline
-playground.xcworkspace
+**/timeline.xctimeline
+**/playground.xcworkspace
 
-# SwiftLint, if generating cache
-.swiftlint.tmp
-.swiftlint.yml
-.swiftlint.cache
+# Firebase / Secrets / Config
+**/GoogleService-Info.plist
+**/Secrets.plist
+**/Config.xcconfig
 
-# Firebase / GoogleService-Info
-GoogleService-Info.plist
+# Binary & archives
+**/*.xcarchive
+**/*.ipa
+**/*.dSYM
+**/*.dSYM.zip
+**/*.zip
+**/*.mp4
+**/*_*.mp4
 
-# SPM artifacts
-Artifacts/
+# Editor config
+**/.idea/
+**/.vscode/
+**/*.orig
+**/*.swp
+**/*.swo
 
-# Sign-in credentials or API keys (set your actual path/file as needed)
-/Secrets.plist
+# Environment files
+**/.env
+**/.env.*
