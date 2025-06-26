@@ -35,13 +35,13 @@ struct QuizView: View {
                     showAnswer.toggle()
                 } label: {
                     Text(showAnswer ? "解答を非表示" : "解答を表示")
+                        .font(.title)
+                        .foregroundStyle(.white)
+                        .padding(.vertical, 12)
+                        .frame(maxWidth: .infinity)
+                        .background(Color.orange)
+                        .clipShape(.capsule)
                 }
-                .font(.title)
-                .foregroundStyle(.white)
-                .padding(.vertical, 12)
-                .frame(maxWidth: .infinity)
-                .background(Color.orange)
-                .clipShape(.capsule)
             }
             
             Spacer()
@@ -54,13 +54,13 @@ struct QuizView: View {
                 }
             } label: {
                 Text(isLastQuiz ? "終了！" : "次の問題へ")
+                    .font(.title)
+                    .foregroundStyle(.white)
+                    .padding(.vertical, 12)
+                    .frame(maxWidth: .infinity)
+                    .background(Color.orange)
+                    .clipShape(.capsule)
             }
-            .font(.title)
-            .foregroundStyle(.white)
-            .padding(.vertical, 12)
-            .frame(maxWidth: .infinity)
-            .background(Color.orange)
-            .clipShape(.capsule)
             
             Spacer()
         }
